@@ -2,7 +2,7 @@ var canvas = new fabric.Canvas('myCanvas');
 
 ball_y = 0;
 ball_x = 0;
-hy = Math.floor(Math.random()*400);
+hy = Math.floor(Math.random()*400)*10;
 hx = Math.floor(Math.random()*800);
 
 
